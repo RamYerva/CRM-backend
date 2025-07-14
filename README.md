@@ -64,9 +64,11 @@ The CRM Backend System is a robust, secure, and scalable API platform built usin
     Update application.properties
 
    spring.datasource.url=jdbc:mysql://localhost:3306/db
+
    spring.datasource.username=username
    spring.datasource.password=yourpassword
 
-3. **Run the application
+4. **Run the application
+
     mvn spring-boot:run
 
